@@ -1,5 +1,6 @@
-# BasketBall
 package com.example.basketball;
+
+// Import
 
 import android.view.View;
 import android.widget.Button;
@@ -10,10 +11,10 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity
 {
-    Button oneA,twoA,threeA;
-    Button oneB,twoB,threeB;
-    TextView resultA,resultB;
-    ImageView resetA,resetB;
+  Button oneA,twoA,threeA;
+  Button oneB,twoB,threeB;
+  TextView resultA,resultB;
+  ImageView resetA,resetB;
 
     int ResultA = 0;
     int ResultB = 0;
